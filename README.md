@@ -1,7 +1,7 @@
 # STM32_CO2_Sensor
 KiCAD files and Arduino Code for SCD41 based CO2 Sensor
 
-Most important parts:
+Most important parts:  
   -STM32L051K  
   -SCD41 (Sensor)  
   -Waveshare 1.54 inch e-Paper (V2)  
