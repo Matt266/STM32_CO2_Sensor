@@ -1,6 +1,12 @@
 # STM32_CO2_Sensor
 KiCAD files and Arduino Code for SCD41 based CO2 Sensor
 
+![Complete PCB with display showing measurements](https://github.com/Matt266/STM32_CO2_Sensor/blob/main/20211228_191640884_iOS.jpg?raw=true)
+*Complete PCB with display showing measurements*
+
+![Closer view to the PCB](https://github.com/Matt266/STM32_CO2_Sensor/blob/main/20211228_191644222_iOS.jpg?raw=true)
+*Closer view to the PCB*
+
 ## The Hardware
 The CO2 Sensor uses a Waveshare 1.54 Inch e-Paper (V2 Version) to display CO2, temperature and humidity measurements.
 After creating a simple test device with an CCS811 Sensor and an Arduino Nano I wanted to create a working device.
