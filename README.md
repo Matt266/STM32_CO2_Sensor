@@ -7,4 +7,5 @@ This test device had two main issues I wanted to address: A high current consump
 due to the cheap Sensor used.
 
 For this I changed quite a few things. I changed the I2C-Oled Display for an e-Paper which reduces standby current consumption
-but also decreases the display refresh rate. 
+but also decreases the display refresh rate. As the new more precise Sensor (SCD41) offers a one shot mode (SCD40 only got a
+periodic measurement mode) I decreas
