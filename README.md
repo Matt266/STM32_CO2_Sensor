@@ -2,10 +2,10 @@
 KiCAD files and Arduino Code for SCD41 based CO2 Sensor
 
 Most important parts:
-  -STM32L051K
-  -SCD41 (Sensor)
-  -Waveshare 1.54 inch e-Paper (V2)
-  -STLink-V2 (for programming)
+  -STM32L051K  
+  -SCD41 (Sensor)  
+  -Waveshare 1.54 inch e-Paper (V2)  
+  -STLink-V2 (for programming)  
 
 ![Complete PCB with display showing measurements](https://github.com/Matt266/STM32_CO2_Sensor/blob/main/20211228_191640884_iOS.jpg?raw=true)
 *Complete PCB with display showing measurements*
