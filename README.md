@@ -29,3 +29,10 @@ const uint8_t Font12_Table[] PROGMEM
 `
 
 There was also an AVR inline assembly call which I replaced even though it didn't seem to cause problems.
+
+The Arduino Code itself is relatively simple: A small startup sequence configures and tests the sensor as well as
+initializes the e-Paper. After that every 5 minutes a single shot measurement is taken. For simplicity I utilized
+the busy waiting that was already implemented in the CO2-Librarie while waiting for the measurement data.
+After recieving the data strings are formatted for printing them on the e-Paper. The red, yellow and green LEDs
+are switched on/off based on CO2 threshold values. After displaying the new data on the display low power sleep 
+is entered for 5min before taking the next measurement.
